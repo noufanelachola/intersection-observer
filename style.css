@@ -1,0 +1,25 @@
+* {
+    margin:0;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.animation {
+    max-width: 35rem;
+}
+
+.para {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: transform 500ms ease-in-out , opacity 500ms ease-in-out ;
+}
+
+.show {
+    opacity: 1;
+    transform: translateX(0);
+}
